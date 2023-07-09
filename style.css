@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    /*We do this inorder to not have extra margin and padding between any elements,wherever we want to add margin we will
+                     add by ourside.*/
+    padding: 0;
+}
+
+body {
+    color: white;
+    /*This is for the color of the text on the website*/
+    background-color: rgb(0, 0, 50);
+    font-family: 'Poppins', sans-serif;
+    /*This specifies that our style of the font throughout our body*/
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(8, 8, 92);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 23px;
+}
+
+.left {
+    font-size: 1.5em;
+    user-select: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main div {
+    margin: 35px 0;
+    width: 436px;
+    /* background-color: red; */
+}
+
+.rightsection img {
+    width: 100%;
+    /* margin: 4rem; */
+    /* margin-right: 200px;  */
+    margin-top: 80px;
+}
+
+.leftsection {
+    /* margin: 4em; */
+    margin: 110px 0;
+    padding: 3rem;
+    font-size: 40px;
+}
+
+#anchor:hover {
+    font-display: inherit;
+    font-weight: 600;
+}
+
+.Purple {
+    color: rgb(170, 107, 288);
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    color: rgb(11, 147, 177);
+    font-size: 1.02rem;
+    font-stretch: semi-expanded;
+}
+
+#element {
+    color: rgb(170, 107, 288);
+    font-style: italic;
+    font-stretch: semi-expanded;
+}
+
+.second-section {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+    /* background-color: #afbcee; */
+    opacity: 0.2;
+
+}
+
+.second-section:hover {
+    opacity: 1;
+    cursor:all-scroll ;
+}
+
+#middleline {
+    border: 0;
+    background-color: rgb(170, 107, 288);
+    height: 0.8px;
+    margin: 20px 100px;
+    margin-top: 80px;
+    margin-bottom: 1.5px;
+}
+
+.second-section h1 {
+    margin: 0 478px;
+    margin-bottom: 6px;
+}
+
+.second-section .box {
+    background-color: #afbcee;
+    width: 80vw;
+    height: 2px;
+    margin-top: 56px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vertical {
+    width: 1px;
+    height: 90px;
+    background-color: #afbcee;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Positions-SAIT {
+    margin-left: -97px;
+    margin-top: 7px;
+    color: aqua;
+}
+
+#Positions-WLUG {
+    margin-top: 7px;
+    margin-left: 438px;
+    color: aqua;
+}
+
+#Positions-GDSC {
+    margin-left: 1001px;
+    margin-right: -107px;
+    color: aqua;
+}
+
+.Text {
+    color: #afbcee;
+    font-size: large;
+    font-weight: 800;
+}
+
+.WorkExperince {
+    font-size: small;
+    margin-top: 2.5px;
+    margin-bottom: 20px;
+    color: gray;
+    opacity: 1;
+}
+
+footer {
+    background-color: #1f094787;
+    height: 35vh;
+}
+
+#element1 {
+    color: aquamarine;
+}
+
+#element2 {
+    color: aquamarine;
+}
+
+.Skills-Section {
+    width: 60%;
+    background-color: #0e083e;
+    height: 250px;
+}
+
+.Skills {
+    font-size: 2.2rem;
+    margin-top: 21px;
+    margin-left: 50px;
+    /* padding-top: 34px; */
+}
+
+.Languages {
+    font-size: 2.2rem;
+    margin-top: -16px;
+    margin-left: 50px;
+    padding-top: 59px;
+}
+
+#List {
+    margin-top: 2px;
+    list-style-type: none;
+    color: #1897f4;
+    padding: 1px;
+    font-size: 1.4rem;
+}
+.flex{
+    opacity: .2;
+}
+.flex:hover{
+    cursor:-moz-grab;
+opacity: 1;
+}
